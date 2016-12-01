@@ -1,0 +1,23 @@
+{
+    "name": "parishop/mailer",
+    "description": "Sending email templates for E-mail in PHPixie 3",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vadim Meling",
+            "email": "vadim@meling.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Parishop\\": "src/Parishop"
+        }
+    },
+    "require": {
+        "phpixie/template": "~3.0",
+        "swiftmailer/swiftmailer": "4.1.7"
+    },
+    "require-dev": {
+        "phpixie/test": "~3.0"
+    }
+}
